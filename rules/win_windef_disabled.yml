@@ -1,11 +1,11 @@
 title: Windows Defender Disabled
-id: c9192ad9-75e5-43eb-8647-82a0a5b493e3
+id: 27800c14-e142-11ea-87d0-0242ac130003 
 status: experimental
 description: Windows Defender logs when it is disabled.
 author: Cian Heasley
 reference:
     - https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/troubleshoot-microsoft-defender-antivirus
-date: 2020/08/13
+date: 2020/08/18
 tags:
     - attack.defense_evasion
     - attack.t1562.001
