@@ -1,0 +1,28 @@
+title: Windows Defender Ignored Threat
+id: 9c7e225c-dd86-41eb-b634-eeaa48cb718a
+status: experimental
+description: Windows Defender logs detected threats upon which default action should not be taken when detected as specified by user. Log entry will contain the value '0x6' which corresponds to 'ignore' as well as the ten digit threatid assigned by Defender at the end of the registry key.
+author: Cian Heasley
+reference:
+    - https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/troubleshoot-microsoft-defender-antivirus
+    - https://www.windows-security.org/7508b16f941612d36a770e57f231dbfd/specify-threats-upon-which-default-action-should-not-be-taken-when
+    - https://attack.mitre.org/techniques/T1562/001/
+date: 2020/08/13
+tags:
+    - attack.defense_evasion
+    - attack.t1562.001
+    - attack.t1562.002
+logsource:
+    category: antivirus
+    product: Microsoft Windows Defender
+detection:
+    selection:
+        EventID: 5007
+        New_value: '*\ThreatIDDefaultAction\* 0x6'
+    condition: selection
+fields:
+    - EventID
+    - New_value
+falsepositives:
+    - Users ignoring false positive threat detections.
+level: medium
