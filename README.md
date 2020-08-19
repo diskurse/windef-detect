@@ -82,10 +82,11 @@ Below you can find the relevant EventIDs that Windows Defender events will gener
 
 ## Resources
 
-[Microsoft Defender Antivirus event IDs](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/troubleshoot-microsoft-defender-antivirus)
-[Defender CSP](https://docs.microsoft.com/en-us/windows/client-management/mdm/defender-csp)
-[Defender PowerShell Functions](https://docs.microsoft.com/en-us/powershell/module/defender/?view=win10-ps)
-[Windows Defender AV-TEST Product Review and Certification Report – May-Jun/2020](https://www.av-test.org/en/antivirus/home-windows/windows-10/june-2020/microsoft-defender-4.18-202416/)
++ [Microsoft Defender Antivirus event IDs](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/troubleshoot-microsoft-defender-antivirus)
++ [Defender CSP](https://docs.microsoft.com/en-us/windows/client-management/mdm/defender-csp)
++ [Defender PowerShell Functions](https://docs.microsoft.com/en-us/powershell/module/defender/?view=win10-ps)
++ [Windows Defender AV-TEST Product Review and Certification Report – May-Jun/2020](https://www.av-test.org/en/antivirus/home-windows/windows-10/june-2020/microsoft-defender-4.18-202416/)
+
 
 ## License
 
