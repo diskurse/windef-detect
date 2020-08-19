@@ -1,6 +1,9 @@
 # Windows Defender Sigma Rules
 
-Sigma rules for vanilla Windows Defender logs (not ATP).
+Sigma dev rules for vanilla Windows Defender logs (not ATP).
+
+You can find the full official [Sigma repo here](https://github.com/Neo23x0/sigma).
+
 
 ## The Logs
 
@@ -33,6 +36,7 @@ Sigma rules for vanilla Windows Defender logs (not ATP).
 These rules paired with a free SIEM solution would be useful for small organizations, businesses or NGOs.
 
 In Splunk this logsource is called "WinEventLog:Microsoft-Windows-Windows Defender/Operational".
+
 
 ## License
 
