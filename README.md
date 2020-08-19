@@ -9,6 +9,12 @@ Sigma dev rules for vanilla Windows Defender logs (not ATP).
 
 You can find the full official [Sigma repo here](https://github.com/Neo23x0/sigma).
 
+## Usage
+
+These rules paired with a free SIEM solution would be useful for small organizations, businesses or NGOs.
+
+In Splunk this logsource is called "WinEventLog:Microsoft-Windows-Windows Defender/Operational".
+
 
 ## The Logs
 
@@ -54,14 +60,6 @@ You can find the full official [Sigma repo here](https://github.com/Neo23x0/sigm
 | 2030  | MALWAREPROTECTION_OFFLINE_SCAN_INSTALLED |
 | 2031  | MALWAREPROTECTION_OFFLINE_SCAN_INSTALL_FAILED |
 | 2040  | MALWAREPROTECTION_OS_EXPIRING |
-
-
-
-## Usage
-
-These rules paired with a free SIEM solution would be useful for small organizations, businesses or NGOs.
-
-In Splunk this logsource is called "WinEventLog:Microsoft-Windows-Windows Defender/Operational".
 
 
 ## License
