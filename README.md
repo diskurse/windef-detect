@@ -11,7 +11,7 @@ You can find the full official [Sigma repo here](https://github.com/Neo23x0/sigm
 
 ## Usage
 
-These rules paired with a free SIEM solution would be useful for small organizations, businesses or NGOs.
+These rules paired with sysmon and a free SIEM solution would be useful for small organizations, businesses or NGOs.
 
 
 ## The Logs
