@@ -1,7 +1,8 @@
 # Windows Defender Sigma Rules
 
 <p align="center">
-  <img src="https://github.com/diskurse/windef-detect/blob/master/images/manually-update-definitions-for-windows-defender-in-windows-10-red-png-windows-300_300.png?raw=true">
+  <img src="https://github.com/diskurse/windef-detect/blob/master/images/manually-update-definitions-for-windows-defender-in-windows-10-red-png-windows-300_300.png?raw=true"><br>
+  <img src="https://github.com/diskurse/windef-detect/blob/master/images/Sigma_0.3.png?raw=true">
 </p>
 
 Sigma dev rules for vanilla Windows Defender logs (not ATP).
