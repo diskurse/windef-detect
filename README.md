@@ -7,7 +7,7 @@
 
 Sigma dev rules for vanilla Windows Defender logs (not ATP).
 
-You can find the full official [Sigma repo here](https://github.com/Neo23x0/sigma).
+You can find the full official [Sigma repo here](https://github.com/Neo23x0/sigma), it covers a lot of ground and is an invaluable resource for blue teamers.
 
 ## Usage
 
