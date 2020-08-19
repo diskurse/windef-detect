@@ -13,10 +13,11 @@ You can find the full official [Sigma repo here](https://github.com/Neo23x0/sigm
 
 These rules paired with a free SIEM solution would be useful for small organizations, businesses or NGOs.
 
-In Splunk this logsource is called "WinEventLog:Microsoft-Windows-Windows Defender/Operational".
-
 
 ## The Logs
+
+In Splunk this log source is defined as "WinEventLog:Microsoft-Windows-Windows Defender/Operational".
+
 
 Below you can find the relevant EventIDs that Windows Defender events will generate.
 
