@@ -1,0 +1,26 @@
+title: Windows Defender Network Sensor Configuration Changes
+id: 6e276fb2-f93a-4921-b957-b0fa98c45125
+status: experimental
+description: Windows Defender logs configuration changes when IPS network sensor is enabled or disabled, changes to this registry value should be monitored.
+author: Cian Heasley
+reference:
+    - https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/troubleshoot-microsoft-defender-antivirus
+    - https://attack.mitre.org/techniques/T1562/001/
+date: 2020/08/19
+tags:
+    - attack.defense_evasion
+    - attack.t1562.001
+logsource:
+    category: antivirus
+    product: Microsoft Windows Defender
+detection:
+    selection:
+        EventID: 5007
+        New_value: '*\DisableBmNetworkSensor*'
+    condition: selection
+fields:
+    - EventID
+    - New_value
+falsepositives:
+    - IPS configuration changes for legit purposes.
+level: medium
