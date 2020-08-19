@@ -18,6 +18,8 @@ In Splunk this logsource is called "WinEventLog:Microsoft-Windows-Windows Defend
 
 ## The Logs
 
+Below you can find the relevant EventIDs that Windows Defender events will generate.
+
 | EventID | Description |
 | --------| ------------- |
 | 1000  | MALWAREPROTECTION_SCAN_STARTED      |
