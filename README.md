@@ -8,6 +8,8 @@
 Sigma dev rules for vanilla Windows Defender logs (not ATP).
 
 You can find the full official [Sigma repo here](https://github.com/Neo23x0/sigma), it covers a lot of ground and is an invaluable resource for blue teamers.
+<p align="center">
+<img src="https://github.com/diskurse/windef-detect/blob/master/images/Screenshot%202020-08-21%20at%2009.39.22.png?raw=true"><br><br>
 
 ## Usage
 
@@ -18,8 +20,8 @@ These rules paired with sysmon and a free SIEM solution would be useful for smal
 
 In Splunk this log source is defined as "WinEventLog:Microsoft-Windows-Windows Defender/Operational".
 
-
 Below you can find the relevant EventIDs that Windows Defender events will generate.
+
 
 | EventID | Description |
 | --------| ------------- |
