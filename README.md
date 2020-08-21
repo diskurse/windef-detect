@@ -24,7 +24,7 @@ Eventually we'll be providing log samples here.
 
 ## The Logs
 
-In Splunk this log source is defined as "WinEventLog:Microsoft-Windows-Windows Defender/Operational".
+We are looking at the log source "Microsoft-Windows-Windows Defender/Operational".
 
 Below you can find the relevant EventIDs that Windows Defender events will generate.
 
