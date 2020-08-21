@@ -5,7 +5,7 @@
   <img src="https://github.com/diskurse/windef-detect/blob/master/images/Sigma_0.3.png?raw=true"><br><br>
 </p>
 
-Sigma dev rules for vanilla Windows Defender logs (not ATP).
+Sigma dev rules for the vanilla Microsoft Defender antivirus logs (not ATP).
 
 You can find the full official [Sigma repo here](https://github.com/Neo23x0/sigma), it covers a lot of ground and is an invaluable resource for blue teamers.
 
