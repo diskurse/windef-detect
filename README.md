@@ -8,12 +8,18 @@
 Sigma dev rules for vanilla Windows Defender logs (not ATP).
 
 You can find the full official [Sigma repo here](https://github.com/Neo23x0/sigma), it covers a lot of ground and is an invaluable resource for blue teamers.
-<p align="center">
-<img src="https://github.com/diskurse/windef-detect/blob/master/images/Screenshot%202020-08-21%20at%2009.43.15.png?raw=true"><br><br>
+
 
 ## Usage
 
 These rules paired with sysmon and a free SIEM solution would be useful for small organizations, businesses or NGOs.
+
+## Log Samples
+
+Eventually we'll be providing log samples here.
+
+<p align="center">
+<img src="https://github.com/diskurse/windef-detect/blob/master/images/Screenshot%202020-08-21%20at%2009.43.15.png?raw=true"><br><br>
 
 
 ## The Logs
